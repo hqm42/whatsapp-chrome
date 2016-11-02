@@ -14,12 +14,6 @@
                 file: 'guest/guest-injection.js'
             }
         );
-
-        webview.executeScript(
-            {
-                file: 'guest/share-menu.js'
-            }
-        )
     });
 
     //Handle when url are clicked inside the webview
